@@ -9,7 +9,9 @@ secondInteger = 10
 secondDouble = 10.0
 secondString = 'Hakuna Matata'
 # Read and save an integer, double, and String to your variables.
-
+secondInteger = int(input())
+secondDouble = float(input())
+secondString = input()
 # Print the sum of both integer variables on a new line.
 print(firstInteger+secondInteger)
 # Print the sum of the double variables on a new line.
